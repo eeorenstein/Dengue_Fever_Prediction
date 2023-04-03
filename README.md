@@ -35,7 +35,7 @@ Besides KNN, all models performed much better than the dummy regressor. We also 
 A weighted average ensemble of the advanced pipelined random forest, XGBoost, HGB with weights of 0.06, 0.41, and 0.53, respectively, yielded the lowest average cross-validated MAE (15.6). 
 
 ## Tools
-Pandas
-XGBoost
-Scikit-learn
-Seaborn
+* Pandas
+* XGBoost
+* Scikit-learn
+* Seaborn
