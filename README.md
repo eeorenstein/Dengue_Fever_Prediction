@@ -24,13 +24,21 @@ Environmental and climate data was provided by the National Oceanic and Atmosphe
 ### Key Insights: Cases
 The total cases has a high concentration of low-valued numbers, is non-negative, contains a long right tail, and is discrete, count data. This indicates that the target, total cases, follows a Negative Binomial or Poisson distribution (if errors' mean = variance). 
 
+![picture alt](https://github.com/eeorenstein/Dengue_Fever_Prediction/blob/main/cases_distribution.png)
+
 There are months with lower and less variable total cases and months with higher average total cases that contain large outliers. It appears that half of the months belong to one group and half to the other. Also, these months are consecutive, indicating that there are two seasons of dengue fever infection and that weather features are likely a major contributor to the spread. The low spread and low variability season lasts from February through June and the higher spread, high variability season goes from July through January.
+
+![picture alt](https://github.com/eeorenstein/Dengue_Fever_Prediction/blob/main/cases_by_month.png)
 
 ### Key Insights: Climate Features
 Strong correlations exist between the temperature-related variables. However, none of the variables strongly correlate with total cases and all but three of the correlations are positive. Also, week of the year, which in a way encapsulates many of these variables, is surprisingly the strongest predictor. Temperature and humidity-related variables somewhat strongly correlate with total cases whereas precipitation-related and NDVI variables are weak correlators. 
 
+![picture alt](https://github.com/eeorenstein/Dengue_Fever_Prediction/blob/main/features_heatmap.png)
+
 ### Comparison of Regressors
 Besides KNN, all models performed much better than the dummy regressor. We also see that, for each model, the version with advanced feature engineering performed better than its preliminary processed counterpart. 
+
+![picture alt](https://github.com/eeorenstein/Dengue_Fever_Prediction/blob/main/models_mae.png)
 
 A weighted average ensemble of the advanced pipelined random forest, XGBoost, HGB with weights of 0.06, 0.41, and 0.53, respectively, yielded the lowest average cross-validated MAE (15.6). 
 
