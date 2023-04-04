@@ -47,3 +47,6 @@ A weighted average ensemble of the advanced pipelined random forest, XGBoost, HG
 * XGBoost
 * Scikit-learn
 * Seaborn
+
+## Future Work
+I could continue this analysis in a couple of directions. I could continue to better understand the relationship between total cases and the input features through more EDA. Just based on a surface-level understanding of the virus, we know that climate and the spread of the disease are important predictors of total cases. Exploring in greater detail what the "perfect storm" of climate featuers looks like in the weeks leading up to the current week could result in additional ideas for feature generation. I would also like to compare this performance with that of deep learning methods (e.g., LSTM) and more statistical-based approaches (e.g., ARIMA). 
