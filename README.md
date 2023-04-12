@@ -1,7 +1,7 @@
 # Predicting Dengue Fever in San Juan
 
 ## Background
-Dengue fever is a flu-like disease most prevalent in the tropical and subtropical areas of the world. In most cases, symptoms are similar to the flu. However, severe cases can result in hospitalization and even death. The disease is spread through mosquitoes. Therefore, the spread of the disease is heavily correlated with climate factors. Understanding the relationship between the climate and the spread of the disease is the one of many important steps to reduce the transmission of the virus.
+Dengue fever is a flu-like disease most prevalent in the tropical and subtropical areas of the world. In most cases, symptoms are similar to the flu. However, severe cases can result in hospitalization and even death. The disease is spread through mosquitoes. Therefore, the spread of the disease is highly correlated with climate factors. Understanding the relationship between the climate and the spread of the disease is the one of many important steps to reduce the transmission of the virus.
 
 ## Methodology
 The objective of the project was to predict dengue fever cases in San Juan, Puerto Rico using nearly two decades of weekly cases and climate data. I ultimately used a weighted average ensemble of several machine learning models to predict weekly dengue fever cases.
