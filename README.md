@@ -31,7 +31,7 @@ There are months with lower and less variable total cases and months with higher
 ![picture alt](https://github.com/eeorenstein/Dengue_Fever_Prediction/blob/main/cases_by_month.png)
 
 ### Key Insights: Climate Features
-Strong correlations exist between the temperature-related variables. However, none of the variables strongly correlate with total cases and all but three of the correlations are positive. Also, week of the year, which in a way encapsulates many of these variables, is surprisingly the strongest predictor. Temperature and humidity-related variables somewhat strongly correlate with total cases whereas precipitation-related and NDVI variables are weak correlators. 
+Strong correlations exist between the temperature-related variables. However, none of the variables strongly correlate with total cases and all but three of the correlations are positive. Also, week of the year, which in a way encapsulates many of these variables, is the strongest predictor. Temperature and humidity-related variables somewhat strongly correlate with total cases whereas precipitation-related and NDVI variables are weak correlators. 
 
 ![picture alt](https://github.com/eeorenstein/Dengue_Fever_Prediction/blob/main/features_heatmap.png)
 
